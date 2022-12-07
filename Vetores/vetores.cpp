@@ -58,7 +58,7 @@ int main(){
     cin >> tam_vetor;
 
     int* vetor = new int[tam_vetor];
-    // Um ponteiro é criado para apontar para o vetor ao qual terá seu tamanho deciodido pelo usuário
+    // Um ponteiro é criado para apontar para o vetor ao qual terá seu tamanho decidido pelo usuário
     // Esse tipo de alocação é chamada de dinânima porque, durante o tempo de execução, é visto o tamanho do vetor
     // e o espaço de memória necessário para alocá-lo, e se necessário, ainda durante o tempo de execução esse espaço
     // pode ser liberado para outro tipo de uso antes da execução ser terminada.
