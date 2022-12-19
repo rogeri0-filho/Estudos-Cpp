@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-/* --> Alocação Estática
+--> Alocação Estática
     int vet_1[4];
     vet_1[0] = 5;
     vet_1[1] = 10;
@@ -47,9 +47,6 @@ int main(){
     cout << "Quantidade de Elementos - 1o Vetor: " << quant_elemn_x << endl;
     cout << "Quantidade de Elementos - 2o Vetor: " << quant_elemn_y << endl;
 
-    //como um num int tem 4 bytes de memória, e o vetor é comporto por 4 deles, o total de bytes é 16
-*/
-
 // --> Alocação Dinâmica
 
     int tam_vetor;
@@ -58,12 +55,6 @@ int main(){
     cin >> tam_vetor;
 
     int* vetor = new int[tam_vetor];
-    // Um ponteiro é criado para apontar para o vetor ao qual terá seu tamanho decidido pelo usuário
-    // Esse tipo de alocação é chamada de dinânima porque, durante o tempo de execução, é visto o tamanho do vetor
-    // e o espaço de memória necessário para alocá-lo, e se necessário, ainda durante o tempo de execução esse espaço
-    // pode ser liberado para outro tipo de uso antes da execução ser terminada.
-
-    // Os valores podem ser atribuidos como na alicação estática, um por um manualmente, ou podem ser jogados em um laço para facilitar o trabalho
 
     for(int i = 0; i < tam_vetor; i++){
         cout << "Digite o " << i+1 << "o elemento do vetor: ";
@@ -75,10 +66,6 @@ int main(){
         cout << vetor[i] << " ";
     }
     cout << "]";
-
-    // É de interesse para o usuário, declarar o vetor como um ponteiro, pois, se no meio do programa não existir mais a necessidade de continuar
-    // usando aquele vetor, basta apenas exclui-lo usando a função delete [], e economizando memoria. No caso dos vetores, a função delete deve ser acompanhada de 
-    // colchetes para que o programa entenda que o que esta sendo deletado é um vetor.
 
     return 0;
 }
