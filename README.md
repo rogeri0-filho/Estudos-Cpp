@@ -14,7 +14,7 @@ O repositório está organizado em pastas para cada tópico estudado. Atualmente
 
 ## Como executar
 
-Para executar os códigos, você precisará de um compilador C++ instalado em sua máquina. Eu recomendo o GCC para sistemas Unix e o MinGW para sistemas Windows.
+Para executar os códigos, você precisará de um compilador C++ instalado em sua máquina. Eu recomendo o [GCC](https://gcc.gnu.org) para sistemas Unix e o [MinGW](https://www.mingw-w64.org) para sistemas Windows.
 
 Siga as instruções abaixo para compilar e executar um código:
 
