@@ -18,10 +18,10 @@ Para executar os códigos, você precisará de um compilador C++ instalado em su
 
 Siga as instruções abaixo para compilar e executar um código:
 
-1. Clone o repositório: git clone https://github.com/rogeri0-filho/Estudos-Cpp.git
-2. Navegue para a pasta do código desejado: cd algoritmos-e-estruturas-de-dados/
-3. Compile o código: g++ -o main main.cpp
-4. Execute o programa: ./main
+1. Clone o repositório: `git clone https://github.com/rogeri0-filho/Estudos-Cpp.git`
+2. Navegue para a pasta do código desejado: `cd algoritmos-e-estruturas-de-dados/`
+3. Compile o código: `g++ -o main main.cpp`
+4. Execute o programa: `./main`
 
 ## Contribuição
 Sinta-se à vontade para contribuir com este projeto. Se você encontrar algum erro ou tiver alguma sugestão de melhoria, por favor, abra uma issue ou envie um pull request.
