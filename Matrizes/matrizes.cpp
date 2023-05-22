@@ -1,8 +1,14 @@
+//Vetores Unidimensionais -> Vetores Convencionais 
+//Vetores Bidimensionaris -> Matrizes
+
+//matriz[linha][coluna]
+//a contagem na matriz tbm começa do 00
 #include <iostream>
 
 using namespace std;
 
 int main(){
+    //Estrutura de uma matriz 2x3:
     int matriz[2][3];
     // matriz[linha][coluna]
 
