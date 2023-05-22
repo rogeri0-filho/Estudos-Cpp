@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
---> Alocação Estática
+//--> Alocação Estática
     int vet_1[4];
     vet_1[0] = 5;
     vet_1[1] = 10;
