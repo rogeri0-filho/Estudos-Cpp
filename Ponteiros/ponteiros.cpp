@@ -1,3 +1,17 @@
+/*
+ponteiros = variáveis
+
+variável que armazena uma endereço de outra variável
+é possivel acessar essa variável através do seu endereço
+
+o tipo de variável a qual o ponteiro vai acessar tambem deve ser declarado 
+
+Quando um ponteiro é atribuido a uma variável, é reservado um espaço da memórioa para armazenar esse valor
+Quando um ponteiro é criado e nenhum valor é atribuido, um endereço aleátorio da memória é usado para o armazenar 
+
+Para evitar o problema citado, o ideal seria fazer o ponteiro apontar para o vazio
+*/
+
 #include <iostream>
 #include <cstddef>
 
